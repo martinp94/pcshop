@@ -1,0 +1,230 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 2em;
+}
+
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  margin-left: 65px;
+  margin-right: 65px;
+  border: 1px solid transparent;
+  background-color: #4d94ff;
+
+  
+  
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: orange;
+    background: #fff;
+}
+
+.navbar-default .navbar-nav  > li > a,
+.navbar-default .navbar-nav  > li > a:hover,
+.navbar-default .navbar-nav  > li > a:focus {
+    color: white;
+    
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #e6e6e6;
+}
+
+
+#header-img {
+  margin-right: 65px;
+  margin-left: 65px;
+
+}
+
+#header-top{
+	
+  
+	margin-right: 50px;
+	margin-left: 50px;
+  padding-top: 22px;
+}
+
+
+.navbar-fixed-bottom {
+	background-color: #4d94ff;
+	margin-left: 65px;
+  	margin-right: 65px;
+}
+
+hr {
+  margin: 0px;
+  padding-top: 1px;
+}
+
+
+
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: 20px;
+}
+
+
+
+
+.footer,
+.push {
+
+  padding-top: 30px;
+  margin-left: 65px;
+  margin-right: 65px;
+  margin-bottom: 0px;
+
+  
+}
+
+
+#main{
+	margin-left: 20px;
+  margin-right: 35px;
+}
+
+#mainContent{
+
+	/*font-family: Verdana;
+	*/
+}
+
+
+
+#changePW {
+  background-color: #ff704d;
+  
+  padding-bottom: 25px;
+}
+
+.administrationHead {
+   background-color: #a6a6a6;
+   color: white;
+   text-align: center;
+   padding: 30px;
+
+   width: 100%;
+}
+
+.shopHead {
+
+  background-color: #ff944d;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin: 15px;
+
+}
+
+.shopEditDiv {
+
+  margin-top: 50px;
+  margin-bottom: 80px;
+
+}
+
+#footerContainer {
+
+  background-color: #4d4d4d;
+  padding-top: 10px;
+
+}
+
+#footerContainer li  {
+
+  list-style-type: square;
+  color: white;
+
+}
+
+#footerContainer li > a {
+
+  text-decoration: none;
+  color: white;
+
+}
+
+table, thead, tr, th {
+  text-align: center;
+}
+
+.productlistview {
+ 
+  padding-top: 5px;
+
+
+}
+
+.productlistview img {
+  width: 100px; height: 100px;
+}
+
+.newsDiv {
+  border: 1px dashed #a6a6a6;
+  padding: 7px;
+}
+
+.headerTopContainer {
+  position: relative;
+  text-align: center;
+  color: blue;
+}
+
+.top-right {
+    position: absolute;
+    font-size: 16px;
+    top: -9px;
+    right: 22px;
+}
+
+.circle {
+  
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  background: red;
+
+}
+
+.cart-header {
+
+  background-color: #ff704d;
+  color: white;
+  padding: 5px;
+  border-radius: 10% 10% 0% 0%;
+}
+
+.cart-details {
+  background-color: #00ff55;
+  color: white;
+  border-radius: 10%;
+  font-weight: bolder;
+}
+
+.table-cart tbody tr:hover td, .table-cart tbody tr:hover th {
+  background-color: #fff;
+  color: #00ff55;
+}
+
