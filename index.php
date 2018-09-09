@@ -27,11 +27,9 @@ require_once 'core/init.php';
 	
 	<div class="container-fluid">
 		<div id="main" class="row">
-			<div id="mainContentInclude" class="col-md-8"><?php include 'maincontent.php'; ?></div>
-			<div id="rSideInclude" class="col-md-4"><?php include 'rside.php'; ?></div>
+			<?php include 'maincontent.php'; ?>
 		</div>
 	</div>
-
 </div>  <!-- wrapper div end -->
 
 <div id="footerInclude"> <?php include 'footer.php'; ?>

@@ -62,7 +62,7 @@ if(Input::get('token')) {
 							} else if($uploadFor == 'shop') {
 								
 								if($user->hasShop()){
-									$file_name_to_save = $user->shop()[0]->url_name . 'shopimg' . time() . strtolower(generate_random_string(9)) . '.' . $imageFileType;
+									$file_name_to_save = $user->shop()->data()->url_name . 'shopimg' . time() . strtolower(generate_random_string(9)) . '.' . $imageFileType;
 								} else {
 									return;
 								}
@@ -82,7 +82,7 @@ if(Input::get('token')) {
 								if (move_uploaded_file($_FILES["imageToUpload"]["tmp_name"], $target_file)) {
 
 		        					$errors[] = "The file ". basename($file_name_to_save). " has been uploaded.";
-		        					$Session['errors'] = $error;
+		        					$Session['errors'] = $errors;
 
 		        					if($uploadFor == 'user') {
 										$user->update(array(
@@ -97,7 +97,7 @@ if(Input::get('token')) {
 											'image' => $file_name_to_save
 										);
 
-										$db->update('shops', $user->shop()[0]->id, $fields);
+										$db->update('shops', $user->shop()->data()->id, $fields);
 								
 									} else if($uploadFor == 'product') {
 

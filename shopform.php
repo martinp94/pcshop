@@ -138,7 +138,7 @@ if(!$user->hasShop()){
 
 		<div class="form-group">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-2 col-md-offset-10">
 					
 					<button class="form-control btn btn-success" type="submit" name="submit"> Potvrdi  </button>
 				

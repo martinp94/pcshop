@@ -1,1 +1,1 @@
-<p style="color: red;">  Po grijesijo si</p>
+<p style="color: red;">  Greška (HTTP 404)</p>
